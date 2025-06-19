@@ -68,7 +68,7 @@ const Navbar = () => {
                 </div>
 
                 {/* mobile nav */}
-                <div className={`absolute top-15 left-0 w-full bg-[#1b1b1b] rounded-bl-lg rounded-br-lg z-30 ${showMenu ? '' : '-translate-y-64 opacity-0'} transition duration-300`}>
+                <div className={`md:hidden absolute top-15 left-0 w-full bg-[#1b1b1b] rounded-bl-lg rounded-br-lg z-30 ${showMenu ? '' : '-translate-y-64 opacity-0'} transition duration-300`}>
                     <div className="flex flex-col items-center justify-center gap-8 py-8 border-t-slate-800 border-t">
                         {
                             data.map(item => (
