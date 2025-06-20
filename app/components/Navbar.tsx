@@ -72,7 +72,8 @@ const Navbar = () => {
                     <div className="flex flex-col items-center justify-center gap-8 py-8 border-t-slate-800 border-t">
                         {
                             data.map(item => (
-                                <Link key={item.id} href={item.url} className="text-slate-400 hover:text-slate-200 transition">{item.name}</Link>
+                                <Link key={item.id} href={item.url} onClick={handleMenuToggle}
+                                    className="text-slate-400 hover:text-slate-200 transition">{item.name}</Link>
                             ))
                         }
                     </div>

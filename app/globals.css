@@ -18,3 +18,30 @@
     --foreground: #ededed;
   }
 }
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* just to define colors in the case studies page */
+.color-category-0 {
+  color: orange;
+  background: rgba(255, 166, 0, 0.148);
+}
+.color-caseStudy-0 {
+  background: orange;
+}
+.color-category-1 {
+  color: blue;
+  background: rgba(0, 0, 255, 0.148);
+}
+.color-caseStudy-1 {
+  background: blue;
+}
+.color-category-2 {
+  color: rgb(105, 11, 219);
+  background: rgba(105, 11, 219, 0.148);
+}
+.color-caseStudy-2 {
+  background: rgb(105, 11, 219);
+}
