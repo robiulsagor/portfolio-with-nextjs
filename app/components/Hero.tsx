@@ -29,7 +29,7 @@ const Hero = () => {
                         <h2 className="text-3xl md:text-4xl lg:text-5xl text-gray-200 font-bold">Robiul Islam Sagar</h2>
                         <p className="text-gray-400 leading-7 tracking-wider">I’m a self-taught MERN stack developer with a strong focus on building real-world, fullstack web applications. With a passion for clean UI and efficient backend logic, I love turning ideas into responsive, user-friendly products. </p>
 
-                        <button className="bg-[#3F8E00] rounded py-3 px-8 text-white text-xl flex gap-2 items-center cursor-pointer group mx-auto md:mx-0">
+                        <button className="bg-green-primary rounded py-3 px-8 text-white text-xl flex gap-2 items-center cursor-pointer group mx-auto md:mx-0">
                             Let&apos;s Get Started <IoChevronForwardOutline className="group-hover:translate-x-3 transition" />
                         </button>
                     </div>

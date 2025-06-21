@@ -1,5 +1,6 @@
 import CaseStudies from "./components/CaseStudies";
 import Hero from "./components/Hero";
+import RecentWorks from "./components/RecentWorks";
 import Testimonials from "./components/Testimonials";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <CaseStudies />
       <Testimonials />
+      <RecentWorks />
     </div>
   );
 }
