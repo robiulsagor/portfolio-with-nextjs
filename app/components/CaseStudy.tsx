@@ -30,7 +30,9 @@ const CaseStudy = ({ title, description, category, link, index }: CaseStudyType)
                 <h3 className="text-slate-800 text-2xl lg:text-3xl font-bold">{title} </h3>
                 <p className="text-slate-400 leading-6 md:leading-7 tracking-wide md:tracking-widest text-justify text-sm md:text-base">{description} </p>
 
-                <Link href={link} className={`color-caseStudy-${index} text-white py-2 px-4 rounded-lg inline-flex gap-3 items-center font-semibold ${roboto_mono.className} group cursor-pointer`}>View Case Study <IoChevronForwardOutline className="group-hover:translate-x-2 transition" /> </Link>
+                <Link href={link} className={`color-caseStudy-${index} text-white py-2 px-4 rounded-lg inline-flex gap-3 items-center font-semibold ${roboto_mono.className} group cursor-pointer text-xs md:text-sm`}>
+                    View Case Study
+                    <IoChevronForwardOutline className="group-hover:translate-x-2 transition" /> </Link>
             </div>
 
         </div>
