@@ -12,7 +12,7 @@ const Testimonials = () => {
                     bg="black"
                 />
 
-                <div className="mt-10 md:mt-24 grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center justify-center gap-10 text-white">
+                <div className="mt-10 md:mt-16 grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center justify-center gap-10 text-white">
                     {
                         testimonials.map(data => (
                             <Testimonial key={data.id}

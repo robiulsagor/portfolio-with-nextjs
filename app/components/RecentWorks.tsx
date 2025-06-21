@@ -11,7 +11,7 @@ const RecentWorks = () => {
                 bg="white"
             />
 
-            <div className="mt-8 md:mt-24 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 gap-10">
                 {
                     recentWorks.map(data => (
                         <RecentWork key={data.id} data={data} />

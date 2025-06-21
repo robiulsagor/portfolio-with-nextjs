@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="bg-[#080808]">
             <Navbar />
 
-            <div className="max-w-6xl mx-auto px-4 py-8">
+            <div className="wrapper min-h-screen">
 
                 <div className="md:flex items-center justify-between ">
                     <div className="flex-1">

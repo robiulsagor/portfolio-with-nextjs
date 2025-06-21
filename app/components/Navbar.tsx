@@ -49,7 +49,7 @@ const Navbar = () => {
     }, [showMenu])
 
     return (
-        <div className="max-w-7xl bg-[#1b1b1b] mx-auto rounded-bl-lg rounded-br-lg py-3 md:py-6 px-5">
+        <div className="fixed top-0 w-full left-[50%] -translate-x-[50%] z-50 max-w-7xl bg-[#1b1b1b] mx-auto rounded-bl-lg rounded-br-lg py-3 md:py-6 px-5">
             <div className="max-w-6xl mx-auto flex items-center justify-between gap-14">
                 {/* desktop nav */}
                 <div className="flex-1 hidden md:flex items-center justify-between text-slate-400">
