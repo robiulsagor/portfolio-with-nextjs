@@ -6,7 +6,7 @@ import TextHeaders from "./TextHeaders"
 
 const CaseStudies = () => {
     return (
-        <div className="max-w-6xl mx-auto px-4 py-8 md:py-14" id="case-studies">
+        <div className="wrapper" id="case-studies">
             <TextHeaders
                 header="Case Studies"
                 subtitle="Solving user &amp; business problems for more than 5+ years"

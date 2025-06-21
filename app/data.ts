@@ -24,3 +24,36 @@ export const caseStudies = [
         link: '/case-study-3',
     }
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        client: "Jane Doe",
+        text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus nisi animi modi distinctio perspiciatis accusamus dolorem officia nobis alias..",
+        pic: "pic1.png"
+    },
+    {
+        id: 2,
+        client: "John Doe",
+        text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus nisi animi modi distinctio perspiciatis accusamus dolorem officia nobis alias..",
+        pic: "pic1.png"
+    },
+    {
+        id: 3,
+        client: "Alioce",
+        text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus nisi animi modi distinctio perspiciatis accusamus dolorem officia nobis alias..",
+        pic: "pic1.png"
+    },
+    {
+        id: 4,
+        client: "Shimul Sharma",
+        text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus nisi animi modi distinctio perspiciatis accusamus dolorem officia nobis alias..",
+        pic: "pic1.png"
+    },
+    {
+        id: 5,
+        client: "Shakib Khan",
+        text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus nisi animi modi distinctio perspiciatis accusamus dolorem officia nobis alias..",
+        pic: "pic1.png"
+    },
+]

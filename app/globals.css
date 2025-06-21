@@ -23,6 +23,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.wrapper {
+  @apply max-w-6xl mx-auto px-4 py-8 md:py-14;
+}
+
 /* just to define colors in the case studies page */
 .color-category-0 {
   color: orange;
