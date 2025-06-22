@@ -56,3 +56,8 @@ input:focus,
 textarea:focus {
   @apply border-none outline-none;
 }
+
+/* Input and textarea styles for contact form */
+.input-class {
+  @apply bg-white rounded-md py-2.5 px-3 block w-full mt-2 text-slate-950 placeholder:text-slate-400;
+}
