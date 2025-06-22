@@ -10,7 +10,7 @@ import { IoChevronForwardOutline } from "react-icons/io5"
 
 const Hero = () => {
     return (
-        <div className="bg-[#080808]">
+        <div className="bg-[#080808]" id="home">
             <Navbar />
 
             <div className="wrapper min-h-screen">
