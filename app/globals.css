@@ -26,7 +26,7 @@ html {
 }
 
 .wrapper {
-  @apply max-w-6xl mx-auto px-4 py-8 md:pt-[100px];
+  @apply max-w-6xl mx-auto px-4 py-8 pt-[80px] md:pt-[100px];
 }
 
 /* just to define colors in the case studies page */
