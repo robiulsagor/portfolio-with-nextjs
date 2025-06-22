@@ -1,6 +1,31 @@
+"use client"
+
 import { recentWorks } from "../data"
 import RecentWork from "./RecentWork"
 import TextHeaders from "./TextHeaders"
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 3
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 2
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1
+    }
+};
 
 const RecentWorks = () => {
     return (
@@ -11,13 +36,18 @@ const RecentWorks = () => {
                 bg="white"
             />
 
-            <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <Carousel
+                responsive={responsive}
+                ssr={true}
+                infinite={true}
+                autoPlay={false}
+                className="mt-8 md:mt-16">
                 {
                     recentWorks.map(data => (
                         <RecentWork key={data.id} data={data} />
                     ))
                 }
-            </div>
+            </Carousel>
         </div>
     )
 }
