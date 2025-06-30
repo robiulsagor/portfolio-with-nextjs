@@ -1,18 +1,18 @@
 import Image from "next/image"
-import recent from "@/public/recent.png"
 import { IoChevronForwardOutline } from "react-icons/io5"
 
 interface RecentWorkProps {
     data: {
         name: string,
-        description: string
+        description: string,
+        image: string,
     }
 }
 
 const RecentWork = ({ data }: RecentWorkProps) => {
     return (
         <div className="max-w-lg mx-auto space-y-6">
-            <Image src={recent} alt="recent project img"
+            <Image src={data.image} alt="recent project img"
                 width={300} height={300} className="w-full h-[280px] object-cover rounded-lg" />
 
             <h2 className="text-2xl font-semibold">{data.name} </h2>

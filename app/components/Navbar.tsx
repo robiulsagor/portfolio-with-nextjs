@@ -81,7 +81,10 @@ const Navbar = () => {
 
 
                 <div className="hidden lg:flex gap-10 items-center ">
-                    <LuLinkedin className="text-slate-400 hover:text-slate-200 cursor-pointer transition" size={22} />
+                    <a href="https://www.linkedin.com/in/robiul-islam-sagar-356582226/" target="_blank" rel="noopener noreferrer">
+                        <LuLinkedin className="text-slate-400 hover:text-slate-200 cursor-pointer transition" size={22} />
+                    </a>
+
                     <BsBehance className="text-slate-400 hover:text-slate-200 cursor-pointer transition" size={22} />
                     <BsTwitter className="text-slate-400 hover:text-slate-200 cursor-pointer transition" size={22} />
                 </div>
